@@ -1,0 +1,6 @@
+{:duct.core/environment :development
+ :duct.core/include ["duct-grison-tuto/config"]
+
+ :duct.database.redis/carmine
+ {:spec {:host "127.0.0.1"
+         :port 6379}}}
